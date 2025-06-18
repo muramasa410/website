@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>趣味のページ</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 100vh;
+    }
+
+    .grid a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      text-decoration: none;
+      color: #222;
+      border: 1px solid #000;
+      transition: background 0.3s;
+    }
+
+    .grid a:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <a href="photo.html">📷 写真</a>
+    <a href="farm.html">🌱 農業</a>
+    <a href="plamo.html">🛠 プラモ</a>
+    <a href="denkou.html">🔧 電子工作</a>
+  </div>
+</body>
+</html>
